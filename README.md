@@ -58,20 +58,13 @@ This project solves that by using **ADPCM**. Instead of sending the absolute val
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/JP-05-CB/nRF_based_communication_prototype.git](https://github.com/JP-05-CB/nRF_based_communication_prototype.git)
-Review MATLAB Simulations: Check the /simulation folder (if applicable) to see the ADPCM algorithm tested on sample audio arrays.
+   
+2. **Review MATLAB Simulations:** Check the `/simulation` folder (if applicable) to see the ADPCM algorithm tested on sample audio arrays.
+3. **Hardware Assembly:** Wire both ESP32 units according to the table above.
+4. **Flash the ESP32s:** * Open the `.ino` / `.cpp` source files in your preferred IDE (Arduino IDE, PlatformIO, etc.).
+   * Ensure you have the necessary libraries installed (e.g., `RF24` by TMRh20).
+   * Upload the code to both ESP32 boards.
+5. **Test:** Press and hold the push button on Unit A to speak, and listen to the output on Unit B's speaker!
 
-Hardware Assembly: Wire both ESP32 units according to the table above.
-
-Flash the ESP32s: * Open the .ino / .cpp source files in your preferred IDE (Arduino IDE, PlatformIO, etc.).
-
-Ensure you have the necessary libraries installed (e.g., RF24 by TMRh20).
-
-Upload the code to both ESP32 boards.
-
-Test: Press and hold the push button on Unit A to speak, and listen to the output on Unit B's speaker!
-
-🤝 Contributing
+## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
-
-📝 License
-MIT License (or mention your specific license here)
